@@ -1,7 +1,7 @@
 body {
     background: linear-gradient(135deg, black, black);
     user-select: none;
-    /* height: 2500px; */
+    height: 3100px;
     padding: 0;
     margin: 0;
     overflow-x: hidden;
@@ -203,7 +203,7 @@ main {
 
     #toggleButton:hover {
         background-color: black;
-        color: white;
+        color: orange;
     }
 
     .ej1 {
@@ -365,10 +365,11 @@ main {
         border: 0;
         background-color: white;
         color: black;
+        transition: all 0.3s;
     }
 
     button.toggle-btn:hover {
-        color: white;
+        color: orange;
         background-color: black;
     }
 
@@ -454,9 +455,9 @@ footer {
 
 @media (max-width: 1080px) {
 
-    /* body {
+    body {
         height: 2300px;
-    } */
+    }
 
     .expanded {
         height: 4350px;
@@ -559,7 +560,7 @@ footer {
 
         #toggleButton:active {
             background-color: black;
-            color: white;
+            color: orange;
         }
 
         .ej1 {
