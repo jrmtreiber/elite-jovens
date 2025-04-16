@@ -454,16 +454,16 @@ footer {
 
 @media (max-width: 1080px) {
 
-    body {
+    /* body {
         height: 2300px;
-    }
+    } */
 
     .expanded {
         height: 4350px;
     }
 
     body::after {
-        height: 2300px;
+        height: 100%;
         background-image: radial-gradient(orange 1px, transparent 1px);
         background-image: radial-gradient(orange 1px, transparent 1px);
         background-size: 20px 20px;
